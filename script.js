@@ -64,8 +64,6 @@ function rgbToHSL(rgbvalue) {
   g /= 255;
   b /= 255;
 
-  // console.log(rbgvalue);
-
   let h, s, l;
 
   const min = Math.min(r, g, b);
